@@ -1,0 +1,5 @@
+.DS_Store
+*.pth
+randimg.png
+processed-images
+processed-images/*
