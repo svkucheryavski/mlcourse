@@ -111,7 +111,7 @@ Although it is not necessary you will learn everything in the classes.
 
 ### 5. Download the course materials
 
-Finally you need to download an archive (zip-file) with course materials, here is the [direct link](). Simply download the archive and unzip it to any folder which you can easily access, for example to Desktop or to Documents (or to any other dedicated folder).
+Finally you need to download an archive (zip-file) with course materials, here is the [direct link](https://github.com/svkucheryavski/mlcourse/releases/download/0.0.1/mlcourse.zip). Simply download the archive and unzip it to any folder which you can easily access, for example to Desktop or to Documents (or to any other dedicated folder).
 
 This is it. **If you have troubles with any of the steps just ask course teacher for help.**
 
