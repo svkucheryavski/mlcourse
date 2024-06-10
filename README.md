@@ -67,13 +67,21 @@ VS Code is a free software for developing of computer programs on any language, 
 
 Now you need to install a special library for Python which will let you use Jupyter notebooks. Jupyter notebook is a simple document, which looks like Word with Python code chunks inside the text. So you can run the code inside the notebook. It makes using Python extremely easy.
 
-To install the library just run VS Code that you installed on the previous step. Click on menu *Terminal* and select option *New Terminal*. You will see a small window appeared in the bottom of the VS Code window and inside this window you can write different commands. Write the following:
+To install the library just run VS Code that you installed on the previous step. Click on menu *Terminal* and select option *New Terminal*. You will see a small window appeared in the bottom of the VS Code window and inside this window you can write different commands.
+
+Write the following if you are on Windows:
 
 ```
 pip install jupyter
 ```
 
-Pres Enter on keyboard and wait. If you do not see any error messages at the end it worked and you can proceed with the last step.
+And if you use Mac run the following:
+
+```
+pip3 install jupyter
+```
+
+Then press *Enter* on your keyboard and wait. If you do not see any error messages at the end it worked and you can proceed with the last step.
 
 
 ### 4. Install VS Code extensions
