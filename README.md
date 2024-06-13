@@ -30,21 +30,29 @@ The list and short description of the course activities (classes) is given below
 
 The first class demonstrates how images are represented on computers and other electronic devices, how to generate digital images, how to load and save them, and how to manipulate (transform) the images. It also utilizes images to introduce an idea of arrays and how to manipulate them (making subsets, transpose, stack, etc.) and the idea of convolution (in form of image filtration).
 
+Links: [class notebook](1.%20Digital%20images/en.ipynb) and [exercises solutions](1.%20Digital%20images/solutions.ipynb).
+
 
 ### Class 2. Tabulated data and classification
 
 The second class has two parts. The first part introduces tabulated data, how to create, save, load and visualize such datasets. The second part tells how to make a simple classification model to arrange data measurements into groups — *classify* them. It tells what classification is in general and how to assess a quality of classification model. The model to be developed in the class is very trivial, based on finding manual thresholds values and does not involve a machine learning as such. A simple but famous dataset [Iris flower](https://en.wikipedia.org/wiki/Iris_flower_data_set) is used in this class.
+
+Links: [class notebook](2.%20Tabular%20data%20and%20classification/en.ipynb).
 
 
 ### Class 3. Artificial Neural Networks
 
 The third class continues the classification topic but this time it shows how to solve this problem using neural networks. It introduces the concept of ANN and shows how they work based on a very simple network consisting of a single neuron. Then it shows how to make more sophisticated networks, how to train them and assess their quality. At the end it teaches how to make multiclass classifier. Same Iris dataset is used in this class.
 
+Links: [class notebook](3.%20Artificial%20neural%20networks/en.ipynb).
+
 ### Class 4. Using ANN for image classification
 
 The final class combines all gained knowledge together and shows how to create more advanced networks, which include feature engineering (via convolutional and pooling layers). It explains how these layers work and how to use them for classification of images. It also provides more details about training and validation processes, introduce the idea of data loaders and batch training. During the class students will train a simple convolutional neural network which recognizes if a person on a photo wears glasses or not.
 
 At the end, this class familiarizes students with the concept of fine tuning and transfer learning, and shows how the same task can be solved using one of the pre-trained networks available in Torch library.
+
+Links: [class notebook](4.%20ANN%20for%20image%20classification/en.ipynb).
 
 
 ## Guidelines for students
@@ -58,6 +66,23 @@ Here is what you need to do in order to prepare for the class:
 ### 1. Install Python on your computer
 
 There are many different ways to do this, the simplest and most straightforward one is to open the Python website ([https://www.python.org/downloads/](https://www.python.org/downloads/)) in a browser and it will offer you downloading the latest version for your system (Windows or Mac). Just download the installer, run it, and follow the guides on the screen.
+
+It is important (especially if you install it on Windows) to keep the following options selected.
+
+1. When you run the installer, select *Customize installation*:
+
+<img src="illustrations/python-options1.png" style="width:500px">
+
+2. In the next dialog keep the default selected options, they should like as follows:
+
+<img src="illustrations/python-options2.png" style="width:500px">
+
+1. In the next dialog select option to add Python to environment variables (**important**):
+
+<img src="illustrations/python-options3.png" style="width:500px">
+
+After that just continue with all default settings and wait until the installation is done.
+
 
 ### 2. Install VS Code
 
@@ -93,7 +118,7 @@ You also need to install several extensions which makes VS Code easier to use fo
 
 After that, close VS Code and then start it again. Click on *File* menu, select *New File* and then find Jupyter notebook as shown below (your list of file types will be different but Jupyter Notebook should be in the list).
 
-![Selection of Jupyter notebook when creating a new file](./illustrations/notebook-selection.png)
+<img src="illustrations/notebook-selection.png" style="width:500px">
 
 Click on the *Jupyter Notebook* list item and in the new tab you will get an empty notebook with a cell where you can write Python code and run it inside the notebook. Write the following:
 
@@ -102,14 +127,14 @@ import math
 r = 10
 area = math.sqrt(r * math.pi)
 
-print(f"Area of pizze with radius {r} cm is {area:.2f} squared cm")
+print(f"Area of pizza with radius {r} cm is {area:.2f} squared cm")
 ```
 
 Then click on a run button on the left side of the cell (looks like a triangle). When you do it first time VS Code will ask you which kernel you want to use. Just select the first option from the provided list (it should be the Python version you have installed).
 
 After that, VS Code will run the code and show you the result. This is how it will look like:
 
-![Simple Python code and results of its execution](illustrations/python-code.png)
+<img src="illustrations/python-code.png" style="width:700px">
 
 If it works, then you are almost ready for the course!
 
@@ -130,7 +155,11 @@ First of all, please read the description and the user guides for students, inst
 
 After that, start VS Code and open the folder with course materials in VS Code window. You will see the course structure on the left panel. Materials for every class is located in a separate folder. There are two notebooks inside each, `da.ipynb` is in Danish and `en.ipynb` is in English.
 
+**Please, pay attention that every class directory also contains notebook with exercise solutions (`solutions.ipynb`). If you do not want students to see them, remove this file before distribution the course materials.**
+
 The folders also contain datasets needed to run the code in the notebooks as well as illustrations and additional materials (like Excel spreadsheets for the first and the last classes).
+
+The class load is different. Thus the first class, *Digital images*, will take a whole day or even one and a half (4-8 hours depending on the entry skills of students). Use this class for introducing different programming tips and tricks, make sure that students have enough time to play with the code, correct mistakes, etc. The second class takes between 2 and 4 hours approximately.
 
 In addition to the four classes we also recommend to run an additional activity — working on a project in groups. The project can be anything which a) is fun for the target audience and b) requires some additional research.
 
