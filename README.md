@@ -2,7 +2,7 @@
 
 **The materials are under development!**
 
-Klick på <a href="README_dk.md">🇩🇰 Dansk</a> version.
+Klick på <a href="README_da.md">🇩🇰 Dansk</a> version.
 
 This repository contains learning materials, which can be used for introducing anyone to very basics of data science and Python programming based on "learning by doing" principle. The materials are created for the middle and high school students in Denmark, but can be used by anyone else as well.
 
