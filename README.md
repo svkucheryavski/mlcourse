@@ -18,7 +18,7 @@ The present learning materials can be used for introducing middle and high schoo
 2. Knows a little about programming (just some very basic ideas).
 3. Can install and run software on own computer.
 
-Although all exercises are based on Python, no specific knowledge is required, all details will be given gradually during the course activities.
+Although all exercises are based on Python, no specific knowledge is required, all details will be given gradually during the course activities. However to help students remember the basics, there is a [notebook](0.%20Python%20basics/en.ipynb), which gives a very short introduction to Python. It can be used as a quick reference source during the course.
 
 In principle, the materials can also be used for self-learning, however they are developed in a way to support a teacher rather than for self-learning. It is assumed that during the classes, a teacher will explain the most difficult parts using a black board and some additional illustrations, e.g. power point slides, etc.
 
@@ -37,7 +37,7 @@ Links: [class notebook](1.%20Digital%20images/en.ipynb) and [exercises solutions
 
 The second class has two parts. The first part introduces tabulated data, how to create, save, load and visualize such datasets. The second part tells how to make a simple classification model to arrange data measurements into groups — *classify* them. It tells what classification is in general and how to assess a quality of classification model. The model to be developed in the class is very trivial, based on finding manual thresholds values and does not involve a machine learning as such. A simple but famous dataset [Iris flower](https://en.wikipedia.org/wiki/Iris_flower_data_set) is used in this class.
 
-Links: [class notebook](2.%20Tabular%20data%20and%20classification/en.ipynb).
+Links: [class notebook](2.%20Tabular%20data%20and%20classification/en.ipynb) and [exercises solutions](2.%20Tabular%20data%20and%20classification/solutions.ipynb).
 
 
 ### Class 3. Artificial Neural Networks
@@ -159,9 +159,9 @@ After that, start VS Code and open the folder with course materials in VS Code w
 
 The folders also contain datasets needed to run the code in the notebooks as well as illustrations and additional materials (like Excel spreadsheets for the first and the last classes).
 
-The class load is different. Thus the first class, *Digital images*, will take a whole day or even one and a half (4-8 hours depending on the entry skills of students). Use this class for introducing different programming tips and tricks, make sure that students have enough time to play with the code, correct mistakes, etc. The second class takes between 2 and 4 hours approximately.
+The class load is different. Thus the first class, *Digital images*, will take a couple of days (6-10 hours depending on the entry skills of students). Use this class for introducing different programming tips and tricks, make sure that students have enough time to play with the code, correct mistakes, etc. The other three class will take around 4-6 hours and can be completed within one day. Hence the whole course with exercises, discussion etc. will take approximately five days.
 
-In addition to the four classes we also recommend to run an additional activity — working on a project in groups. The project can be anything which a) is fun for the target audience and b) requires some additional research.
+In addition to the four classes we also recommend to run an extra activity — working on a project in groups. The project can be anything which a) is fun for the target audience and b) requires some additional research.
 
 For example it can be creating (or fine tuning) of CNN network to classify garbage. You can download corresponding datasets from Kaggle: [dataset 1](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification?select=Garbage+classification), [dataset 2](https://www.kaggle.com/datasets/farzadnekouei/trash-type-image-dataset). Try to [search](https://www.kaggle.com/datasets?search=image+classification) in Kaggle for more interesting datasets.
 
