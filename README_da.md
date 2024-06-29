@@ -18,7 +18,7 @@ De nuværende læringsmaterialer kan bruges til at introducere elever i folkesko
 2. Kender lidt til programmering (bare nogle meget grundlæggende ideer).
 3. Kan installere og køre software på egen computer.
 
-Selvom alle øvelser er baseret på Python, kræves der ingen specifik viden, alle detaljer vil blive givet gradvist under kursusaktiviteterne. Dog for at hjælpe eleverne med at huske det grundlæggende, er der en [notebook](0.%20Python%20basics/en.ipynb), som giver en meget kort introduktion til Python. Den kan bruges som en hurtig referencekilde under kurset.
+Selvom alle øvelser er baseret på Python, kræves der ingen specifik viden, alle detaljer vil blive givet gradvist under kursusaktiviteterne. Dog for at hjælpe eleverne med at huske det grundlæggende, er der en [notebook](0.%20Python%20basics/da.ipynb), som giver en meget kort introduktion til Python. Den kan bruges som en hurtig referencekilde under kurset.
 
 I princippet kan materialerne også bruges til selvstudie, men de er udviklet til at støtte en lærer fremfor til selvstudie. Det antages, at en lærer vil forklare de sværeste dele ved hjælp af en tavle og nogle ekstra illustrationer, f.eks. PowerPoint slides, osv.
 
@@ -30,19 +30,19 @@ Listen og en kort beskrivelse af kursusaktiviteterne (klasserne) er givet nedenf
 
 Den første klasse demonstrerer, hvordan billeder er repræsenteret på computere og andre elektroniske enheder, hvordan man genererer digitale billeder, hvordan man indlæser og gemmer dem, og hvordan man manipulerer (transformerer) billederne. Den bruger også billeder til at introducere en idé om arrays og hvordan man manipulerer dem (laver delmængder, transponering, stakning osv.) og ideen om convolution (i form af billedfiltrering).
 
-Links: [klassens notebook](1.%20Digital%20images/en.ipynb) og [løsningsforslag til øvelser](1.%20Digital%20images/solutions.ipynb).
+Links: [klassens notebook](1.%20Digital%20images/da.ipynb) og [løsningsforslag til øvelser](1.%20Digital%20images/solutions.ipynb).
 
 ### Klasse 2. Tabellerede data og klassifikation
 
 Den anden klasse har to dele. Den første del introducerer tabellerede data, hvordan man opretter, gemmer, indlæser og visualiserer sådanne datasæt. Den anden del fortæller, hvordan man laver en simpel klassifikationsmodel til at arrangere data målinger i grupper — *klassificere* dem. Den forklarer, hvad klassifikation generelt er, og hvordan man vurderer kvaliteten af en klassifikationsmodel. Modellen, der skal udvikles i klassen, er meget triviel, baseret på at finde manuelle tærskelværdier og involverer ikke maskinlæring som sådan. Et simpelt men berømt datasæt [Iris flower](https://en.wikipedia.org/wiki/Iris_flower_data_set) bruges i denne klasse.
 
-Links: [klassens notebook](2.%20Tabular%20data%20and%20classification/en.ipynb) og [løsningsforslag til øvelser](2.%20Tabular%20data%20and%20classification/solutions.ipynb).
+Links: [klassens notebook](2.%20Tabular%20data%20and%20classification/da.ipynb) og [løsningsforslag til øvelser](2.%20Tabular%20data%20and%20classification/solutions.ipynb).
 
 ### Klasse 3. Kunstige neurale netværk
 
 Den tredje klasse fortsætter emnet om klassifikation, men denne gang viser den, hvordan man løser dette problem ved hjælp af neurale netværk. Den introducerer begrebet ANN og viser, hvordan de fungerer baseret på et meget simpelt netværk bestående af en enkelt neuron. Derefter viser den, hvordan man laver mere sofistikerede netværk, hvordan man træner dem og vurderer deres kvalitet. Til sidst lærer den, hvordan man laver en multiclass classifier. Samme Iris datasæt bruges i denne klasse.
 
-Links: [klassens notebook](3.%20Artificial%20neural%20networks/en.ipynb).
+Links: [klassens notebook](3.%20Artificial%20neural%20networks/da.ipynb).
 
 ### Klasse 4. Brug af ANN til billedklassifikation
 
@@ -50,11 +50,11 @@ Den sidste klasse kombinerer al den opnåede viden og viser, hvordan man oprette
 
 Til sidst introducerer denne klasse eleverne til begrebet finjustering og transfer learning og viser, hvordan den samme opgave kan løses ved hjælp af et af de foruddannede netværk tilgængelige i Torch biblioteket.
 
-Links: [klassens notebook](4.%20ANN%20for%20image%20classification/en.ipynb).
+Links: [klassens notebook](4.%20ANN%20for%20image%20classification/da.ipynb).
 
 ## Vejledning til elever
 
-Enhver, der kan installere og bruge programmer på en computer og kender skolematematik, kan tage dette kursus. Det vil være lettere, hvis du også kender det helt grundlæggende om programmering (f.eks. har prøvet en af programmeringssprogene eller visuelle programmeringssystemer, som [Scratch](https://scratch.mit.edu) eller [Lego Mindstorms](https://www.lego.com/en-dk/themes/mindstorms/learntoprogram) eller lignende). Men det forventes ikke, at du har gode færdigheder i det.
+Enhver, der kan installere og bruge programmer på en computer og kender skolematematik, kan tage dette kursus. Det vil være lettere, hvis du også kender det helt grundlæggende om programmering (f.eks. har prøvet en af programmeringssprogene eller visuelle programmeringssystemer, som [Scratch](https://scratch.mit.edu) eller [Lego Mindstorms](https://www.lego.com/da-dk/themes/mindstorms/learntoprogram) eller lignende). Men det forventes ikke, at du har gode færdigheder i det.
 
 Det antages også, at du vil tage guidede klasser organiseret af nogen. Selvstudie er muligt, men vil være lidt sværere.
 
