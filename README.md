@@ -44,7 +44,8 @@ Links: [class notebook](2.%20Tabular%20data%20and%20classification/en.ipynb) and
 
 The third class continues the classification topic but this time it shows how to solve this problem using neural networks. It introduces the concept of ANN and shows how they work based on a very simple network consisting of a single neuron. Then it shows how to make more sophisticated networks, how to train them and assess their quality. At the end it teaches how to make multiclass classifier. Same Iris dataset is used in this class.
 
-Links: [class notebook](3.%20Artificial%20neural%20networks/en.ipynb).
+Links: [class notebook](3.%20Artificial%20neural%20networks/en.ipynb) and [exercises solutions](3.%20Artificial%20neural%20networks/solutions.ipynb).
+
 
 ### Class 4. Using ANN for image classification
 

@@ -42,7 +42,8 @@ Links: [klassens notebook](2.%20Tabular%20data%20and%20classification/da.ipynb) 
 
 Den tredje klasse fortsætter emnet om klassifikation, men denne gang viser den, hvordan man løser dette problem ved hjælp af neurale netværk. Den introducerer begrebet ANN og viser, hvordan de fungerer baseret på et meget simpelt netværk bestående af en enkelt neuron. Derefter viser den, hvordan man laver mere sofistikerede netværk, hvordan man træner dem og vurderer deres kvalitet. Til sidst lærer den, hvordan man laver en multiclass classifier. Samme Iris datasæt bruges i denne klasse.
 
-Links: [klassens notebook](3.%20Artificial%20neural%20networks/da.ipynb).
+Links: [klassens notebook](3.%20Artificial%20neural%20networks/da.ipynb) og [løsningsforslag til øvelser](3.%20Artificial%20neural%20networks/solutions.ipynb).
+
 
 ### Klasse 4. Brug af ANN til billedklassifikation
 
