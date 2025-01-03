@@ -64,7 +64,11 @@ It is also assumed that you will take guided classes organized by someone. Self-
 
 Here is what you need to do in order to prepare for the class:
 
-### 1. Install Python on your computer
+### 1. Download the course materials
+
+First of all, you need to download an archive (zip-file) with course materials, here is the [direct link](https://github.com/svkucheryavski/mlcourse/releases/download/0.0.1/mlcourse.zip). Simply download the archive and unzip it to any folder which you can easily access, for example, Desktop, Documents, or any other dedicated folder.
+
+### 2. Install Python on your computer
 
 There are many different ways to do this, the simplest and most straightforward one is to open the Python website ([https://www.python.org/downloads/](https://www.python.org/downloads/)) in a browser, and it will offer you downloading the latest version for your system (Windows or Mac). Just download the installer, run it, and follow the guides on the screen.
 
@@ -85,15 +89,31 @@ It is important (especially if you install it on Windows) to keep the following 
 After that, just continue with all the default settings and wait until the installation is done.
 
 
-### 2. Install VS Code
+### 3. Install VS Code
 
 VS Code is a free software for developing computer programs in any language, including Python. Simply go to the VS Code website ([https://code.visualstudio.com](https://code.visualstudio.com)) and you will see a large Download button with the latest version suitable for your system. Download the installer, run it, and follow the guides.
 
-### 3. Install Jupyter package
+### 3. Create virtual environment and install necessary packages
+
+When you install Python, it is installed globally on your computer. However, for different projects (and also for our course) you will need to install additional packages, which extend the basic Python with a lot of additional functionality. For example, there is a package to work with images in Python, there is a package to make plots, to do math, etc.
+
+It is a good idea to install packages needed for a particular project locally, so they will be available only when you open the project folder. This will make your projects isolated from each other and isolated from the global system settings, which, in its turn reduces possible issues tremendously.
+
+Python has a built in mechanism for creating such isolated environments — *virtual environments*. The idea is simple — it creates additional folder inside the project directory (it is usually called `.venv`) and installes all needed packages and programs to that folder.
+
+So our goal here is to create such envoronment for our course. First of all, run the VS Code that you installed in the previous step. Then open the folder with course materials you have downloaded and unzipped at the first step. After that you will see all elements inside this folder in the left column of the VS Code window, which will look something like this:
+
+![VSCode with course folder open]()
+
+
+Click on menu *Terminal* and select option *New Terminal*. You will see a small window appear at the bottom of the VS Code window, and inside this window you can write different commands. Write the following command and hit *Enter*:
+
+```
+
+```
+
 
 Now you need to install a special library for Python which will let you use Jupyter notebooks. Jupyter notebook is a simple document that looks like Word with Python code chunks inside the text. So you can run the code inside the notebook. It makes using Python extremely easy.
-
-To install the library, just run the VS Code that you installed in the previous step. Click on menu *Terminal* and select option *New Terminal*. You will see a small window appear at the bottom of the VS Code window, and inside this window you can write different commands.
 
 Write the following if you are on Windows:
 
@@ -131,7 +151,21 @@ area = math.sqrt(r * math.pi)
 print(f"Area of pizza with radius {r} cm is {area:.2f} squared cm")
 ```
 
-Then click on a run button on the left side of the cell (looks like a triangle). When you do it first time VS Code will ask you which kernel you want to use. Just select the first option from the provided list (it should be the Python version you have installed).
+Then click on a run button on the left side of the cell (looks like a triangle).
+
+When you do it first time VS Code will ask you which kernel you want to use. It is a good ideal to make an isolated environment, so VSCode will create additional folder with name `.venv` and put all necessary libaries, packages, add ons to this folder, thereby it will not disturb your system settings.
+
+When VSCode asks you which Kernel to use, simply select `Python environments` and then in the next list select `Create Python environment`. After that you will have two options like is shown below: ![Creation of Python environments](./illustrations/environments.png).
+
+Just select the first one (`Venv`) and then wait until VSCode sets up everything for you. After installation is ready you will see a new folder with name `.venv` in the right column among other files and folders.
+
+You need to do this only once. Next time you open any notebook from this folder, simply select this option from the list of available Python environments:
+
+![Selection of Python environments](./illustrations/environments2.png)
+
+Pay attention that in your case the corresponding Python version (in the screenshot it is 3.13) may be different.
+
+Usually VS Code highlights this option with a star, like shown in the screenshot above, but you can also recognize it by the prefix `.venv`. Later when you work with your own projects, always create such local envoronment for each project, so they will be isolated and do not depend on global settings.
 
 After that, VS Code will run the code and show you the result. This is how it will look like:
 
@@ -143,9 +177,7 @@ If you want to understand what the code does, Google simple Python code instruct
 
 Although it is not necessary, you will learn everything in the classes.
 
-### 5. Download the course materials
 
-Finally, you need to download an archive (zip-file) with course materials, here is the [direct link](https://github.com/svkucheryavski/mlcourse/releases/download/0.0.1/mlcourse.zip). Simply download the archive and unzip it to any folder which you can easily access, for example, Desktop, Documents, or any other dedicated folder.
 
 This is it. **If you have troubles with any of the steps, just ask course teacher for help.**
 
