@@ -1,5 +1,6 @@
 .DS_Store
 *.pth
+__pycache__
 randimg.png
 processed-images
 processed-images/*
